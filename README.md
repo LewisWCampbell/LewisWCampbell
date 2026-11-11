@@ -23,7 +23,7 @@ MS Business Analytics, Chapman University (Argyros) · Orange County, CA
 
 I work at the intersection of **data engineering, machine learning, and applied AI**. By day I redesign data architecture so AI can run inside real operations; by night I do applied research on machine consciousness and model alignment. Before analytics I spent three years in the creator economy as a talent manager and blockchain consultant, which is why most of my projects start with a business question and end with something deployed.
 
-- 🔭 **Currently:** building agentic coding systems with AI PR review and Jira integration
+- 🔭 **Currently:** building experimental models and advanced sports analytics
 - 🧠 **Researching:** machine consciousness and alignment at L.U.C.I.D. Lab
 - 🧰 **Favorite problems:** unsupervised structure in messy catalogs, LLM fine-tuning and evaluation
 - ✍️ **Thinking about:** philosophy of mind, AI consciousness, decentralized systems
