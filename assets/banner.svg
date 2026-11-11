@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Lewis William Campbell — Data Science, Machine Learning, Applied AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#15101f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#ffcc00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <style>
+      .name { font: 700 58px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f8f8f8; letter-spacing: -1px; }
+      .sub  { font: 500 22px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffcc00; letter-spacing: 3px; }
+      .tag  { font: 400 17px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #a9a9b3; }
+      .mono { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #7b2ff7; }
+      .pt { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .pt:nth-child(2) { animation-delay: .4s } .pt:nth-child(3) { animation-delay: .8s }
+      .pt:nth-child(4) { animation-delay: 1.2s } .pt:nth-child(5) { animation-delay: 1.6s } .pt:nth-child(6) { animation-delay: 2s }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1) } 50% { opacity: 1; transform: scale(1.5) } }
+      .draw { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 3s ease-out forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <circle cx="960" cy="160" r="260" fill="url(#glow)"/>
+
+  <!-- left accent bar -->
+  <rect x="0" y="0" width="6" height="320" fill="url(#line)"/>
+
+  <!-- text -->
+  <text x="64" y="118" class="sub">DATA SCIENCE · MACHINE LEARNING · APPLIED AI</text>
+  <text x="62" y="182" class="name">Lewis William Campbell</text>
+  <text x="64" y="222" class="tag">Data Analyst II · Graduate Research Engineer, L.U.C.I.D. Lab @ Chapman</text>
+  <text x="64" y="268" class="mono">&gt; lewiswcampbell.com</text>
+
+  <!-- data chart on the right -->
+  <g transform="translate(780,60)">
+    <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+      <line x1="0" y1="200" x2="360" y2="200"/>
+      <line x1="0" y1="150" x2="360" y2="150"/>
+      <line x1="0" y1="100" x2="360" y2="100"/>
+      <line x1="0" y1="50"  x2="360" y2="50"/>
+    </g>
+    <polyline class="draw" points="0,180 60,150 120,160 180,100 240,110 300,50 360,30"
+              fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#ffcc00">
+      <circle class="pt" cx="60"  cy="150" r="5"/>
+      <circle class="pt" cx="120" cy="160" r="5"/>
+      <circle class="pt" cx="180" cy="100" r="5"/>
+      <circle class="pt" cx="240" cy="110" r="5"/>
+      <circle class="pt" cx="300" cy="50"  r="5"/>
+      <circle class="pt" cx="360" cy="30"  r="6"/>
+    </g>
+  </g>
+</svg>
