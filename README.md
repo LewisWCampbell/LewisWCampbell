@@ -119,10 +119,6 @@ I work at the intersection of **data engineering, machine learning, and applied 
 ## 📊 GitHub at a glance
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LewisWCampbell&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=ffcc00&icon_color=7b2ff7&text_color=f8f8f8&rank_icon=github" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LewisWCampbell&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ffcc00&text_color=f8f8f8&langs_count=6" alt="Top languages">
-</p>
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=LewisWCampbell&hide_border=true&background=0a0a0a&ring=ffcc00&fire=ffcc00&currStreakLabel=ffcc00&sideLabels=f8f8f8&currStreakNum=f8f8f8&sideNums=f8f8f8&dates=a9a9b3&stroke=7b2ff7" alt="GitHub streak">
 </p>
 <p align="center">
